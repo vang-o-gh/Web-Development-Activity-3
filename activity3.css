@@ -1,0 +1,224 @@
+/* Font-face declarations */
+@font-face {
+  font-family: 'NeueMontreal-Bold';
+  src: url(fonts/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Regular';
+  src: url(fonts/NeueMontreal-Regular.otf);
+}
+
+@font-face {
+  font-family: 'NeueMontreal-Light';
+  src: url(fonts/NeueMontreal-Light.otf);
+}
+
+body{
+  background: linear-gradient(90deg, #051E22, #5A944D);
+  margin: 50px 50px 50px 50px;
+}
+
+.navigation-bar{
+  background-color: rgba(5, 30, 34, 0.7);
+  backdrop-filter: blur(100px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  height: 50px;
+}
+
+.navigation-bar a{
+  color: #FCFCFC;
+  font-family: 'NeueMontreal-Regular';
+}
+
+a[aria-current="page"] {
+  font-weight: bold;
+  color: #5A944D;
+}
+
+.hero-section-homepage{
+  background-color: rgb(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  padding: 50px 50px 50px 50px;
+}
+
+.hero-section-projects{
+  background-color: rgb(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.box-homepage{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: center;
+  padding: 30px 50px 30px 50px;
+  margin-right: 25px;
+}
+
+.box-projects{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: center;
+  padding: 30px 50px 30px 50px;
+  margin-bottom: 25px;
+}
+
+.box-projects-achievements{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin: 5px 5px 5px 5px;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: top;
+  padding: 30px 50px 30px 50px;
+}
+
+h1{
+  font-family: 'NeueMontreal-Bold';
+}
+
+hr{
+  background-color: #FCFCFC;
+  height: 2px;
+  margin-bottom: 50px;
+}
+
+/* Carousel Homepage*/
+#HomepageCarousel .carousel-inner {
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+#HomepageCarousel .carousel-control-prev {
+  background: linear-gradient(45deg, #051E22, #5A944D, #051E22);
+  backdrop-filter: blur(100px);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 100%;
+  width: 10%;
+  border-width: 0px;
+}
+
+#HomepageCarousel .carousel-control-next {
+  background: linear-gradient(45deg, #051E22, #5A944D, #051E22);
+  backdrop-filter: blur(100px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  width: 10%;
+  border-width: 0px;
+}
+
+/* Carousel Projects*/
+#ProjectsCarousel .carousel-inner {
+  width: auto;
+  height: 450px;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+#ProjectsCarousel .carousel-control-prev {
+  background: linear-gradient(45deg, #051E22, #5A944D, #051E22);
+  backdrop-filter: blur(100px);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 100%;
+  width: 5%;
+  border-width: 0px;
+}
+
+#ProjectsCarousel .carousel-control-next {
+  background: linear-gradient(45deg, #051E22, #5A944D, #051E22);
+  backdrop-filter: blur(100px);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 100%;
+  width: 5%;
+  border-width: 0px;
+}
+
+.projects-achievements{
+  margin-top: 25px;
+  
+}
+
+.col-5{
+  padding: 100px 100px 100px 100px;
+  display: flex;
+  align-items: center; 
+}
+
+.col-7{
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center; 
+}
+
+.buttons{
+  margin-top: 50px;
+}
+
+.my-works{
+  border-radius: 10px;
+  color: #FCFCFC;
+  background-color: #051E22;
+  font-size: 18px;
+  padding: 5px 30px 5px 30px;
+  letter-spacing: 1px;
+  border-width: 0;
+  transition: background-color 0.5s;
+}
+
+.my-works:hover {
+  background-color: #5A944D;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
