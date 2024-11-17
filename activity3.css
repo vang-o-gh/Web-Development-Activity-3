@@ -17,6 +17,7 @@
 body{
   background: linear-gradient(90deg, #051E22, #5A944D);
   margin: 50px 50px 50px 50px;
+  user-select: none;
 }
 
 .navigation-bar{
@@ -65,6 +66,18 @@ a[aria-current="page"] {
   padding: 50px 50px 50px 50px;
 }
 
+.hero-section-skills{
+  background-color: rgb(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+}
+
 .box-homepage{
   color: #FCFCFC;
   background-color: rgba(5, 30, 34, 0.1);
@@ -84,6 +97,24 @@ a[aria-current="page"] {
 }
 
 .box-projects{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: center;
+  padding: 30px 50px 30px 50px;
+  margin-bottom: 25px;
+}
+
+.box-skills{
   color: #FCFCFC;
   background-color: rgba(5, 30, 34, 0.1);
   backdrop-filter: blur(100px);
@@ -121,6 +152,11 @@ a[aria-current="page"] {
 
 h1{
   font-family: 'NeueMontreal-Bold';
+}
+
+h2{
+  font-family: 'NeueMontreal-Regular';
+  font-size: 20px;
 }
 
 hr{
