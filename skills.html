@@ -42,5 +42,17 @@
         Welcome to my skills page! Here, you'll find an overview of the technical expertise and tools I use to bring ideas to life. Whether it's building dynamic websites, developing robust applications, or managing network infrastructures, I'm constantly refining my craft. I’m passionate about leveraging technology to solve real-world problems and deliver impactful solutions. Feel free to explore the range of skills I bring to the table, and how I apply them to create innovative, efficient, and user-centered projects.      </div> 
     </section>
 
+    
+    <script>
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'v' || e.key === 'x')) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>

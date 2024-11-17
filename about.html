@@ -34,5 +34,17 @@
        </ul>
     </section>
 
+    
+    <script>
+      document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if ((e.ctrlKey || e.metaKey) && (e.key === 'c' || e.key === 'v' || e.key === 'x')) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </body>
 </html>
