@@ -54,6 +54,18 @@ a[aria-current="page"] {
   padding: 50px 50px 50px 50px;
 }
 
+.hero-section-about{
+  background-color: rgb(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 50px 50px 50px;
+}
+
 .hero-section-projects{
   background-color: rgb(5, 30, 34, 0.1);
   backdrop-filter: blur(100px);
@@ -75,6 +87,21 @@ a[aria-current="page"] {
   height: auto;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero-section-contacts{
+  background-color: rgb(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 10px 0px 20px 0px;
+  height: auto;
+  justify-content: center;
+  display: flex;
   padding: 50px 50px 50px 50px;
 }
 
@@ -94,6 +121,24 @@ a[aria-current="page"] {
   align-content: center;
   padding: 30px 50px 30px 50px;
   margin-right: 25px;
+}
+
+.box-about{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: center;
+  padding: 30px 50px 30px 50px;
+  margin-bottom: 25px;
 }
 
 .box-projects{
@@ -150,12 +195,36 @@ a[aria-current="page"] {
   padding: 30px 50px 30px 50px;
 }
 
+.box-contacts{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  width: auto;
+  height: auto;
+  flex: 1;
+  text-align: justify;
+  font-family: 'NeueMontreal-Regular';
+  letter-spacing: 1px;
+  align-content: center;
+  padding: 30px 50px 30px 50px;
+  margin-left: 25px;
+}
+
 h1{
   font-family: 'NeueMontreal-Bold';
+  color: #FCFCFC;
 }
 
 h2{
   font-family: 'NeueMontreal-Regular';
+  font-size: 20px;
+}
+
+.h2-skills{
+  font-family: 'NeueMontreal-Bold';
   font-size: 20px;
 }
 
@@ -164,6 +233,81 @@ hr{
   height: 2px;
   margin-bottom: 50px;
 }
+
+.hr-skills{
+  background-color: #FCFCFC;
+  height: 1px;
+  margin-bottom: 30px;
+}
+
+.card{
+  color: #FCFCFC;
+  background-color: rgba(5, 30, 34, 0.1);
+  backdrop-filter: blur(100px);
+  border-radius: 20px;
+  border-style: none;
+  flex-grow: 1;
+}
+
+.card-text{
+  font-family: 'NeueMontreal-Regular';
+  font-size: 15px;
+  color:#ceffc2;
+}
+
+.card-img-top{
+  margin: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto; 
+  height: auto; 
+  border-radius: 15px;
+}
+
+.hard-skills .row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+}
+
+.soft-skills .row{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  display: flex;
+  align-items: stretch;
+}
+
+.skills-description{
+  font-family: 'NeueMontreal-Regular';
+  text-align: justify;
+  letter-spacing: 1px;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 25px;
+  color:#FCFCFC;
+}
+
+.socials{
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
 
 /* Carousel Homepage*/
 #HomepageCarousel .carousel-inner {
@@ -224,7 +368,6 @@ hr{
 
 .projects-achievements{
   margin-top: 25px;
-  
 }
 
 .col-5{
@@ -259,6 +402,53 @@ hr{
   background-color: #5A944D;
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
 }
+
+.table-education{
+  color: #FCFCFC;
+  width: 100%;
+  background: linear-gradient(45deg, #051E22, #5A944D);
+  backdrop-filter: blur(100px);
+  font-family: 'NeueMontreal-Regular';
+  margin-top: 50px;
+}
+
+.table-work{
+  color: #FCFCFC;
+  width: 100%;
+  background: linear-gradient(45deg, #051E22, #5A944D);
+  backdrop-filter: blur(100px);
+  font-family: 'NeueMontreal-Regular';
+  margin-top: 50px;
+}
+
+th, td{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-color: #61775b;
+  border-width: 1px;
+}
+
+.table-socials{
+  width: 100%;
+  margin-top: 50px;
+}
+
+Table.table-socials td{
+  border: none;
+}
+
+a{
+  color:#ceffc2;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #051E22;
+}
+
+
 
 
 /* Responsive Design */
